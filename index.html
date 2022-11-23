@@ -1,106 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Poppins:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="styles/main.css" />
+        <title>Spookify</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <p class="spookify-text logo text--Primary">
+                    spook<span class="text--Accent">ify.</span>
+                </p>
+                <ul>
+                    <li class="text--Primary">Stories</li>
+                    <li class="text--Primary">Authors</li>
+                    <li class="text--Primary">Contact</li>
+                    <a class="text--Primary" href="#">Sign Up</a>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="hero">
+                <div class="hero__intro">
+                    <figure class="pumpkin-image">
+                        <img
+                            src="images/landing-image.png"
+                            alt="Pumpkin Image"
+                        />
+                    </figure>
+                    <div class="hero__intro__text">
+                        <h1 class="hero__intro-h1 text--Accent">
+                            Tales of the Undead
+                        </h1>
+                        <h2 class="hero__intro-h2 text--Neutral-Gray">
+                            Scare yourself, scare your friends, for all we care
+                        </h2>
+                        <a class="hero_getstarted" href="#"
+                            >Sign-up</a
+                        >
+                    </div>
+                </div>
+            </section>
+            <section class="stories">
+                <h2 class="stories__title text--Primary">Top Stories</h2>
+                <div class="stories__paramdam">
+                    <figure class="stories__figure">
+                        <img
+                            class="stories__image"
+                            src="images/paramdam.png"
+                            alt="Top Story - Paramdam"
+                        />
+                        <div class="paramdam-border"></div>
+                    </figure>
+                    <div class="stories__paramdam-texts">
+                        <h3 class="text--Primary-Lighter">Paramdam</h3>
+                        <p class="stories__paramdam__p text--Neutral-Gray">
+                            Mga bandang gabi or madaling araw nagising sya kasi may<br>
+                            dumadaan sa bintana kaya binuksan nya pinto nun, pag<br>
+                            bukas ng pinto nakita nya daw si papa naka upo dun sa<br>
+                            pwesto nya ng pinag iinuman. Iyak ng iyak ate ko nun,<br>
+                            kwento ng lola ko na hindi na rin nakapag tinda dahil sa
+                            takot.<br><br> 
+                            Kinabukasan, dun na rin ako natulog samin<br>
+                            pero sumama pa rin pinsan ko dahil sa takot.
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Poppins:wght@400;700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="styles/main.css">
-    <title>spookify | </title>
-</head>
+                        </p> 
+                        <br>       
 
-<body>
-    <header>
-        <nav>
-            <p>spookify</p>
-            <ul>
-                <li>Stories</li>
-                <li>Authors</li>
-                <li>Contact</li>
-                <a href="#">Sign Up</a>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section class="hero">
-            <div>
-                <figure>
-                    <img src="images/landing-image.png" alt="Pumpkin Image">
-                </figure>
-                <h1>Tales of the Undead</h1>
-                <h2>Scare yourself, scare your friends, for all we care</h2>
-                <a href="#">Get Started</a>
-            </div>
-        </section>
-        <section class="stories">
-            <div>
-                <div>
-                    <figure>
-                        <img src="" alt="Top Story - Paramdam">
-                    </figure>
-                    <h3>Paramdam</h3>
-                    <p>Mga bandang gabi or madaling araw nagising sya kasi may dumadaan sa bintana kaya binuksan nya
-                        pinto nun, pag bukas ng pinto nakita nya daw si papa naka upo dun sa pwesto nys ng pinag
-                        iinuman. Iyak ng iyak ate ko nun, kwento ng lola ko na hindi na rin nakapag tinda dahil sa
-                        takot.
-                        Kinabukasan, dun na rin ako natulog samin pero sumama pa rin pinsan ko dahil sa takot. </p>
+                         <li class="senyales">Read More...</li>
+                    </div>
                 </div>
-                <div>
-                    <figure>
-                        <img src="" alt="Top Story - Senyales">
+                <div class="stories__senyales">
+                    <figure class="stories__senyales__figure">
+                        <img
+                            class="stories__senyales__image"
+                            src="images/senyales.png"
+                            alt="Top Story - Senyales"
+                        />
+                        <div class="senyales-border"></div>
                     </figure>
-                    <h3>Senyales</h3>
-                    <p>Kinaumagahan may tumawag sakin na ka trabaho ko. May naganap daw na barilan sa labas ng
-                        tinatrabahoan namin at may patay isa nabaril raw. May damage rin ang store na pinagtrabahoan
-                        namin.
-                        Sobrang kabog ng dibdib ko dahil kung hindi lang ako sinabihan ng mag inang yun, siguro ako yung
-                        nabiktima nung gabing yun, laking pasasalamat ko sa mag inang yun, sinubukan ko silang hanapin
-                        pero hindi ko mahanap.</p>
-                </div>
-            </div>
-        </section>
-        <section class="authors">
-            <div>
-                <div>
-                    <figure>
-                        <img src="images/author-cris.png" alt="Top Author #1">
-                        <h3>Cris James</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque arcu facilisis sodales
-                            aliquam dolor sit luctus amet. Aliquet egestas amet amet iaculis orci eget eu.</p>
-                    </figure>
-                </div>
-                <div>
-                    <figure>
-                        <img src="images/author-katie.png" alt="Top Author #2">
-                        <h3>Katie Kim/h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque arcu facilisis
-                                sodales
-                                aliquam dolor sit luctus amet. Aliquet egestas amet amet iaculis orci eget eu.</p>
-                    </figure>
-                </div>
-                <div>
-                    <figure>
-                        <img src="images/author-scarlette.png" alt="Top Author #3">
-                        <h3>Scarlette Dickinson</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque arcu facilisis sodales
-                            aliquam dolor sit luctus amet. Aliquet egestas amet amet iaculis orci eget eu.</p>
-                    </figure>
-                </div>
-            </div>
-        </section>
-        <footer>
-            <div>
-                <h1>Dare to Spookify</h1>
-                <input type="text" placeholder="Enter your Email Address">
-                <input type="submit" value="Spook Us">
-                <p>©2022 Spookify 🎃, Inc. Terms & Conditions, Privacy</p>
-            </div>
-        </footer>
-    </main>
-</body>
+                    <div class="stories__senyales-texts">
+                        <h3 class="text--Primary-Lighter">Senyales</h3>
+                        <p class="stories__senyales__p text--Neutral-Gray">
+                            Kinaumagahan may tumawag sakin na ka trabaho ko. May<br>
+                                            naganap daw na barilan sa labas ng tinatrabahoan namin at<br>
+                                            may patay isa nabaril raw. May damage rin ang store na<br> 
+                                            pinagtrabahoan namin.<br><br>
+                                            Sobrang kabog ng dibdib ko dahil kung hindi lang ako<br>
+                                            sinabihan ng mag inang yun, siguro ako yung nabiktima nung<br>
+                                            gabing yun, laking pasasalamat ko sa mag inang yun,<br> 
+                                            pero hindi ko mahanap.
+                        </p> 
+                        <br>
 
-</html>
+                            <li class="senyales">Read More...</li>
+                    </div>
+                </div>
+            </section>
+            <div class="authors">
+                <h2 class="authors__title text--Primary">Top Authors</h2>
+                <div class="authors__container">
+                    <div>
+                        <figure class="figure">
+                            <img
+                                class="authors__images"
+                                src="images/author-cris.png"
+                                alt="Top Author #1"
+                            />
+                            <h3 class="author__h3 text--Accent">Cris James</h3>
+                            <p class="authors__p">
+                                Story: Paramdam<br>
+                                Published: 2022
+                            </p>
+                        </figure>
+                    </div>
+                    <div>
+                        <figure class="figure">
+                            <img
+                                class="authors__images"
+                                src="images/author-katie.png"
+                                alt="Top Author #2"
+                            />
+                            <h3 class="author__h3 text--Accent">Katie Kim</h3>
+                            <p class="authors__p">
+                                Story: Senyales<br>
+                                Published: 2009
+                            </p>
+                        </figure>
+                    </div>
+                    <div>
+                        <figure class="figure">
+                            <img
+                                class="authors__images"
+                                src="images/author-scarlette.png"
+                                alt="Top Author #3"
+                            />
+                            <h3 class="author__h3 text--Accent">Scarlette Dickinson</h3>
+                            <p class="authors__p">
+                                Story: Halik na Itim<br>
+                                Published: 2022
+                            </p>
+                        </figure>
+                    </div>
+                </div>
+            </section>
+            <footer class="footer">
+                <div class="footer__div">
+                    <h1 class="footer__div__h1 text--Accent">
+                        Dare to Spookify
+                    </h1>
+                    <input
+                        class="footer__textbox"
+                        type="text"
+                        placeholder="Enter your Email Address"
+                    />
+                    <input
+                        class="footer__submit "
+                        type="submit"
+                        value="Spook Us"
+                    />
+                </div>
+                <p class="text--Neutral-White">
+                    ©2022 Spookify 🎃, Inc. Terms & Conditions, Privacy
+                </p>
+            </footer>
+        </main>
+    </body>
+ </html>
